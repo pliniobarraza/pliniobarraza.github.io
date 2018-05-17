@@ -103,7 +103,7 @@ FriendlyChat.prototype.saveMessage = function(e) {
 // Sets the URL of the given img element with the URL of the image stored in Cloud Storage.
 FriendlyChat.prototype.setImageUrl = function(imageUri, imgElement) {
   imgElement.src = imageUri;
-  console.log(imgElement.src);
+  //console.log(imgElement.src);
   // If the image is a Cloud Storage URI we fetch the URL.
   if (imageUri.startsWith('gs://')) {
     imgElement.src = FriendlyChat.LOADING_IMAGE_URL; // Display a loading image first.
