@@ -4,7 +4,7 @@
 
 importScripts('https://www.gstatic.com/firebasejs/5.0.2/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/5.0.2/firebase-messaging.js');
-importScripts('https://www.gstatic.com/firebasejs/5.0.2/firebase/init.js');
+// importScripts('https://www.gstatic.com/firebasejs/init.js');
 
 
 https://www.gstatic.com/firebasejs/5.0.2/
